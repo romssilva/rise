@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+body {
+	margin: 0;
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	height: 100vh;
+}
+
+.container {
+	padding: 2em;
+	background-color: rgba(24,25,26,0.3);
+	height: 100vh;
+}
+
+.title {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bolder;
+	position: relative;
+	top: -1.5em;
+}
+
+.title h1 {
+	font-family: 'Dancing Script', cursive;
+}
+
+.input {
+	position: relative;
+	top: -5em;
+}
+
+#city {
+	width: 100%;
+	height: 2em;
+	border-radius: 0.05em;
+	border: 0;
+	border-bottom: 0.1em solid white;
+	font-size: 2em;
+	background-color: transparent;
+	text-align: center;
+}
+
+#button {
+	margin-top: 1.5em;
+	width: 100%;
+	height: 3em;
+	line-height: 2.5em;
+	text-align: center;
+	background-color: transparent;
+	border: 0.2em solid white;
+	border-radius: 0.05em;
+}
+
+.rise-arc {
+	position: relative;
+	top: -3em;
+}
+
+#button:hover{
+	cursor: pointer;
+}
+
+#info {
+	text-align: center;
+}
+
+.arc-container {
+	width: 100%;
+	padding-top: 1em;
+	overflow: hidden;
+	overflow-y: hidden;
+}
+
+.full .rs-tooltip {
+    top: 20%;
+    left: 50%;
+}
+
+.rs-control {
+    left: -32px;
+}
+
+.rs-path-color,
+.rs-bg-color,
+.rs-range-color { 
+	background-color: transparent;
+}
+
+.rs-border {
+	border: 0.2em solid white;
+}
+
+.rs-handle {
+	background-color: white;
+}
+
+.rs-seperator {
+	border: none;
+}
+
+@media (min-width: 600px) {
+  .portrait {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+  }
+}
